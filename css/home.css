@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
+:root {
+   color-scheme: dark;
+}
+
 body {
    background-color: #323232;
    margin: 0;
@@ -78,7 +82,6 @@ body {
    /*grid-template-columns: repeat(3, 1fr);*/
 }
 
-
 .card {
    margin: auto;
    background-color: #505050;
@@ -89,7 +92,6 @@ body {
    border-radius: 8px;
    overflow: hidden;
 }
-
 
 
 .card img {
