@@ -33,10 +33,12 @@ body {
 
 .link {
    text-decoration: underline;
+   display: inline-block;
    color: cyan;
    transition: transform .2s;
-   font-size: 32px;  
+   font-size: 28px;
 }
+
 .link:hover {
    transform: scale(1.1);
 }
@@ -45,12 +47,12 @@ body {
    font-family: "Poppins", sans-serif;
    color: #ffffff;
    text-align: center;
-   
+
 }
 
 .cardText {
    font-family: "Poppins",
-   sans-serif;
+      sans-serif;
    color: #ffffff;
    text-align: left;
    padding: 1rem;
@@ -78,9 +80,12 @@ body {
    max-width: 1200px;
    margin: 0 auto;
    display: grid;
-   grid-gap: 1.5rem;
-   /*grid-template-columns: repeat(3, 1fr);*/
+   height: auto;
+   grid-gap: 1rem;
+   grid-template-columns: repeat(auto-fit, minmax(21em, 1fr));
 }
+
+
 
 .card {
    margin: auto;
